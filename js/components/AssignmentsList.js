@@ -4,7 +4,7 @@ import Panel from "./Panel.js";
 export default{
     components:{Assignment, AssignmentTags, Panel},
     template: `
-        <Panel v-show="assignments.length" class="w-60">
+        <Panel v-show="assignments.length" class="w-70">
         <div class="flex justify-between items-start">
             <h2 class="font-bold mb-2">
                 {{title}}
